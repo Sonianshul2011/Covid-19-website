@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid-19 website</title>
+    <style>
+        .header{
+            padding: 70px;
+            background-color: rgb(0, 54, 116);
+            color: whitesmoke;
+            font-style: normal;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            animation-duration: 3s;
+            animation-name: example;
+        }
+        @keyframes example {
+            0%   {background-color: rgb(0, 54, 116);}
+            25%  {background-color: rgb(0, 90, 163);}
+            50%  {background-color: rgb(28, 6, 153);}
+            100% {background-color: rgb(0, 0, 0);}
+        }
+        .header, h1{
+            font-size: 50px;
+            transition: transform 250ms;
+        }
+        .header h1:hover{
+            transform: translateY(10px);
+            color: rgb(218, 54, 4);
+        }
+        .header h3{
+            font-size: 20px;
+        }
+        .navigation {
+            background-color: rgb(0, 0, 0);
+            overflow: hidden;
+            
+        }
+        .navigation a {
+            color: rgb(255, 255, 255);
+            padding: 20px;
+            text-decoration: none;
+            text-align: center;
+            float: left;
+            font-weight: 900;
+        }
+        .navigation a:hover{
+            background-color: rgb(49, 131, 209);
+        }
+        .details h2{
+            font-size: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            text-align: center;
+            color: rgb(0, 54, 116);
+        }
+        .details p{
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }  
+        .details{
+            border: 3px solid rgb(0, 54, 116);
+            padding: 8px;
+        }
+        h2{
+            font-size: 50px;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            font-weight: bold;
+            color: rgb(0, 54, 116);
+            text-align: center;
+            text-decoration: none;
+            
+        }
+        h2:hover{
+            color: rgb(192, 3, 3);
+            text-decoration: underline;
+            transition: transform 250ms;
+        }
+        div{
+            border: 3px solid rgb(0, 54, 116);
+            padding: 8px;
+        }
+        a{
+            transition: transform 250ms;
+        }
+        a:hover{
+            transform: translateY(5px);
+        }
+        img{
+            transition: transform 250ms;
+        }
+        img:hover{
+            transform: translateY(-20px);
+        }
+        .footer{
+            background-color: rgb(0, 0, 0);
+            overflow: hidden;
+        }
+        .footer a{
+            color: rgb(255, 255, 255);
+            padding: 20px;
+            text-decoration: none;
+            text-align: center;
+            float: left;
+            font-weight: 900;
+        }
+        .footer a:hover{
+            background-color: rgb(49, 131, 209);
+        }
+    </style>
+</head>
+<body>
+   <header class="header">
+       <h1>Coronavirus Disease (COVID-19)</h1>
+       <h3>Check here for daily updates on COVID-19 World-Wide</h3>
+   </header>
+   <nav class="navigation">
+       <a href="#">Home</a>
+       <a href="https://news.google.com/covid19/map?hl=en-IN&mid=%2Fm%2F03rk0&gl=IN&ceid=IN%3Aen" target="_blank">Updates</a>
+       <a href="pdf/guidelins.pdf" target="_blank">Guidelines</a>
+       <a href="https://timesofindia.indiatimes.com/india/coronavirus-lockdown-in-india-covid-19-cases-and-vaccine-live-updates/liveblog/82362847.cms" target="_blank">News</a>
+       <a href="https://en.wikipedia.org/wiki/Coronavirus" target="_blank">Know More</a>
+       <a href="login page.html">Login/Sign Up</a>
+   </nav><br>
+   <main>
+       <div class="details">
+           <h2>What is Covid-19?</h2>
+           <p>I. Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.</p>
+           <p>II. Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment.  Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness.</p>
+           <p>III. The best way to prevent and slow down transmission is to be well informed about the COVID-19 virus, the disease it causes and how it spreads. Protect yourself and others from infection by washing your hands or using an alcohol based rub frequently and not touching your face. </p>
+           <p>IV. The COVID-19 virus spreads primarily through droplets of saliva or discharge from the nose when an infected person coughs or sneezes, so it’s important that you also practice respiratory etiquette (for example, by coughing into a flexed elbow).</p>
+       </div><br>
+    <div>
+       <h2>About Coronavirus</h2>
+       <section>
+           <a href="symptoms.html" target="_blank"><img src="images/maxresdefault.jpg" alt="" style="width: 30%; height: 40; padding-left: 3%;"></a> 
+           <a href="prevention.html" target="_blank"><img src="images/images.png" alt=""  style="width: 30%; height: 50; padding-left: 3%;" ></a> 
+           <a href="treatment.html" target="_blank"><img src="images/treatment.jpg" alt="" style="width: 30%; height: 50; padding-left: 3%;" ></a> 
+       </section>
+    </div><br>
+    <div>
+       <h2>Daily Cases</h2>
+       <section>
+        <iframe src="https://public.domo.com/cards/bWxVg" width="43%" height="500" marginheight="0" marginwidth="0" frameborder="0" style="padding-left: 5%;"></iframe>
+        <iframe src="https://public.domo.com/cards/avnAV" width="43%" height="500" marginheight="0" marginwidth="0" frameborder="0" style="padding-left: 5%;"></iframe>
+       </section>
+    </div><br>
+    <div>
+       <h2>Recovered</h2>
+       <section>
+        <iframe src="https://public.domo.com/cards/dNl4L" width="43%" height="400" marginheight="0" marginwidth="0" frameborder="0" style="padding-left: 5%;"></iframe>
+        <iframe src="https://public.domo.com/cards/epNEr" width="43%" height="400" marginheight="0" marginwidth="0" frameborder="0" style="padding-left: 5%;"></iframe>
+       </section>
+    </div><br>
+    <div>
+       <h2>Vaccination</h2>
+       <section>
+        <iframe src="https://public.domo.com/cards/2kO6J" width="43%" height="500" marginheight="0" marginwidth="0" frameborder="0" style="padding-left: 5%;"></iframe>
+        <iframe src="https://public.domo.com/cards/31O7r" width="43%" height="500" marginheight="0" marginwidth="0" frameborder="0" style="padding-left: 5%;"></iframe>
+       </section>
+    </div><br>
+    <div>
+       <h2>Registration for Vaccination</h2>
+       <a href="https://www.cowin.gov.in/home" target="_blank"><img src="images/registration.jpg" alt="" style="width: 30%; padding-left: 35%;" ></a>
+    </div><br>
+    <div>
+       <h2>Vaccines Available in India</h2>
+       <section>
+           <a href="https://www.bharatbiotech.com/covaxin.html" target="_blank"><img src="images/covaxin.jpg" alt="" style="width: 20%; padding-left: 10%;"></a>
+           <a href="https://www.seruminstitute.com/product_covishield.php" target="_blank"><img src="images/covishield.jpg" alt="" style="width: 20%; padding-left: 10%;"></a>
+           <a href="https://en.wikipedia.org/wiki/Sputnik_V_COVID-19_vaccine" target="_blank"><img src="images/sputnik.jpg" alt="" style="width: 20%; padding-left: 10%;"></a>
+       </section>
+    </div><br>
+    <div>
+       <h2>Our Partners</h2>
+       <section >
+           <a href="https://www.seruminstitute.com/about_us.php" target="_blank"><img src="images/serum.png" alt="" style="padding-left: 4%;"></a>
+           <a href="https://www.bharatbiotech.com/" target="_blank"><img src="images/bharat biotech.png" alt="" style="padding-left: 4%;"></a>
+           <a href="https://www.drreddys.com/" target="_blank"><img src="images/reddy.png" alt="" style="padding-left: 5%;"></a>
+           <a href="https://www.mohfw.gov.in/covid_vaccination/vaccination/index.html" target="_blank"><img src="images/mhrd1.png" alt="" style="padding-left: 5%;"></a>
+       </section>
+    </div><br>
+    </main>
+    <footer class="footer">
+        <a href="pdf/FAQ.pdf" target="_blank">FAQ</a>
+        <a href="https://www.linkedin.com/in/anshul-soni-024098201/" target="_blank">Contact Us</a>
+        <a href="pdf/term of use.pdf" target="_blank">Terms of Use</a>
+        <a href="pdf/term of use.docx" target="_blank">Privacy Policy</a>
+        <a href="pdf/term of use.pdf" target="_blank">Refund Policy</a>
+        <a href="feed back form.html" target="_blank">Feedback</a>
+        <a href="#">&copy; 2021 | Covid-19</a>
+    </footer> 
+</body>
+</html>

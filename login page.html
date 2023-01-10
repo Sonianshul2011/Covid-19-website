@@ -1,0 +1,83 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+    <title>Login Form</title>    
+    <style>
+
+.login{  
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: #fcb8b8;  
+        border-radius: 15px ;  
+}  
+h2{  
+    text-align: center;  
+    color: #ffffff;  
+    padding: 15px;
+    font-size: 60px;  
+}  
+label{  
+    color: #000000;  
+    font-size: 17px;  
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#log{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: rgb(0, 0, 0);  
+}  
+span{  
+    color: rgb(0, 0, 0);  
+    font-size: 17px;  
+}  
+a{  
+    float: right;  
+    
+    color: #000000;
+    font-size: 17px;
+}  
+    </style> 
+</head>    
+<body background="images/coronavirus-crisis-management.jpg">    
+    <h2>Login Page</h2><br>    
+    <div class="login">    
+    <form id="login" method="get" action="login.php">    
+        <label><b>User Name     
+        </b>    
+        </label>    
+        <input type="text" name="Uname" id="Uname" placeholder="Username" required>    
+        <br><br>    
+        <label><b>Password     
+        </b>    
+        </label>    
+        <input type="Password" name="Pass" id="Pass" placeholder="Password" required>    
+        <br><br>    
+        <input type="submit" name="log" id="log" formaction="Covid-19.html" value="Log In Here">       
+        <br><br>    
+        <input type="checkbox" id="check">    
+        <span>Remember me</span>    
+        <br><br>    
+        Forgot <a href="#">Password</a>    
+    </form>     
+</div>    
+</body>    
+</html>
